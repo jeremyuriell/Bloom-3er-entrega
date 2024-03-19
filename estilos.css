@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Delius+Swash+Caps&family=Pridi:wght@200;300;400;500;600;700&display=swap");
+* {
+  font-family: "Pridi", serif;
+}
+
+/* header */
+.navbar {
+  background-color: palevioletred;
+}
+
+.navbar-collapse {
+  justify-content: end;
+}
+
+.navbar-brand {
+  color: bisque !important;
+}
+.navbar-brand img {
+  height: 70px;
+}
+
+.nav-link {
+  color: white !important;
+  text-shadow: 0 0 6px black !important;
+}
+.nav-link:hover {
+  color: palevioletred !important;
+}
+
+/* body */
+.jumbotron {
+  height: 450px;
+  background-image: url(IMG/salon.jpg.jpg);
+}
+.jumbotron h1, .jumbotron p {
+  color: bisque !important;
+  text-decoration: underline bisque;
+  text-shadow: 0 0 6px black;
+}
+
+.btn {
+  color: bisque;
+  background-color: palevioletred;
+  text-shadow: 0 0 6px;
+}
+
+.whats {
+  color: bisque;
+}
+
+h2 {
+  text-align: center;
+  background-color: palevioletred;
+  padding: 20px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 5px black;
+  margin-bottom: 0;
+}
+
+.nleft {
+  background-image: url(IMG/microbladin-ceja.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+.articulo {
+  border: 2px solid black;
+  text-align: center;
+}
+
+.row {
+  margin-right: 0px;
+}
+
+.articulo i {
+  font-size: 35px;
+  margin-bottom: 20px;
+}
+
+/* nosotros */
+.nleft-fluisa {
+  background-image: url(IMG/LUISAFONDONEGRO.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+}
+
+/* ervicios */
+.nleftserv {
+  background-image: url(IMG/pestaña.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.nrightserv p {
+  color: palevioletred;
+  text-decoration: underline black;
+}
+
+.nleftserv1 {
+  background-image: url(IMG/microbladin-ceja.jpg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.nrightserv1 p {
+  color: palevioletred;
+  text-decoration: underline black;
+}
+
+.nleftserv2 {
+  background-image: url(IMG/efecto\ rimel.jpg.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 320px;
+  border-radius: 50%;
+}
+
+.nrightserv2 p {
+  color: palevioletred;
+  text-decoration: underline black;
+}
+
+/* cursos */
+.nleftcurso1 {
+  background-image: url(IMG/LUISAFONDOCOLOR.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 25%;
+}
+
+.nrightcurso1 {
+  color: palevioletred;
+  text-decoration: underline black;
+}
+
+.nleftcurso2 {
+  background-image: url(IMG/LUISAFONDOCOLOR.jpeg);
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  border-radius: 25%;
+}
+
+.nrightcurso2 {
+  color: palevioletred;
+  text-decoration: underline black;
+}
+
+/* contacto */
+.contacto {
+  text-align: center;
+}
+
+.mapa {
+  width: auto;
+  height: auto;
+}
+
+footer {
+  background-color: black;
+  color: palevioletred;
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+footer a {
+  text-decoration: none;
+  color: bisque;
+  letter-spacing: 10px;
+}
+
+/*# sourceMappingURL=estilos.css.map */
