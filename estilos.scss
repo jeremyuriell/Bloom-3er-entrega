@@ -46,13 +46,20 @@ $color-black: black;
 .jumbotron {
   height: 450px;
   background-image: url(IMG/salon.jpg.jpg);
-
-  h1, p {
-    color: $color-bisque !important;
-    text-decoration: underline $color-bisque;
-    text-shadow: 0 0 6px $color-black;
-  }
+h1, p{
+  color: $color-black !important;
+  text-decoration: underline $color-black;
+  text-shadow: 0 0 2px $color-black;
+  background-color: rgba(250, 156, 187, 0.685);
 }
+
+}
+
+// h1, p {
+//   color: $color-bisque !important;
+//   text-decoration: underline $color-bisque;
+//   text-shadow: 0 0 2px $color-black;
+// }
 
 .btn {
   color: $color-bisque;
@@ -130,6 +137,10 @@ h2 {
 .nrightserv1 p {
   color: $color-palevioletred;
   text-decoration: underline $color-black;
+}
+.contenedor{
+  height: 20px;
+  width: 20px;
 }
 
 .nleftserv2 {

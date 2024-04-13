@@ -34,9 +34,10 @@
   background-image: url(IMG/salon.jpg.jpg);
 }
 .jumbotron h1, .jumbotron p {
-  color: bisque !important;
-  text-decoration: underline bisque;
-  text-shadow: 0 0 6px black;
+  color: black !important;
+  text-decoration: underline black;
+  text-shadow: 0 0 2px black;
+  background-color: rgba(250, 156, 187, 0.685);
 }
 
 .btn {
@@ -113,6 +114,11 @@ h2 {
 .nrightserv1 p {
   color: palevioletred;
   text-decoration: underline black;
+}
+
+.contenedor {
+  height: 20px;
+  width: 20px;
 }
 
 .nleftserv2 {
